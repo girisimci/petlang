@@ -2,7 +2,7 @@ import React from "react";
 import { Text, View } from "react-native";
 import Icon from "./Icon";
 import { ProfileItemT } from "../types";
-import styles, { DARK_GRAY, WHITE } from "../assets/styles";
+import styles, { DARK_GREEN, WHITE } from "../assets/styles";
 
 const ProfileItem = ({
   age,
@@ -29,28 +29,28 @@ const ProfileItem = ({
 
     <View style={styles.info}>
       <Text style={styles.iconProfile}>
-        <Icon name="person" size={12} color={DARK_GRAY} />
+        <Icon name="person" size={12} color={DARK_GREEN} />
       </Text>
       <Text style={styles.infoContent}>{info1}</Text>
     </View>
 
     <View style={styles.info}>
       <Text style={styles.iconProfile}>
-        <Icon name="pizza" size={12} color={DARK_GRAY} />
+        <Icon name="pizza" size={12} color={DARK_GREEN} />
       </Text>
       <Text style={styles.infoContent}>{info2}</Text>
     </View>
 
     <View style={styles.info}>
       <Text style={styles.iconProfile}>
-        <Icon name="airplane" size={12} color={DARK_GRAY} />
+        <Icon name="airplane" size={12} color={DARK_GREEN} />
       </Text>
       <Text style={styles.infoContent}>{info3}</Text>
     </View>
 
     <View style={styles.info}>
       <Text style={styles.iconProfile}>
-        <Icon name="calendar" size={12} color={DARK_GRAY} />
+        <Icon name="calendar" size={12} color={DARK_GREEN} />
       </Text>
       <Text style={styles.infoContent}>{info4}</Text>
     </View>

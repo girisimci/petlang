@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { CardItem, Icon } from "../components";
 import DEMO from "../assets/data/demo";
-import styles, { DARK_GRAY } from "../assets/styles";
+import styles, { DARK_GREEN } from "../assets/styles";
 
 const Matches = () => (
   <ImageBackground
@@ -20,7 +20,7 @@ const Matches = () => (
       <View style={styles.top}>
         <Text style={styles.title}>Matches</Text>
         <TouchableOpacity>
-          <Icon name="ellipsis-vertical" color={DARK_GRAY} size={20} />
+          <Icon name="ellipsis-vertical" color={DARK_GREEN} size={20} />
         </TouchableOpacity>
       </View>
 

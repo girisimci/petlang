@@ -26,7 +26,7 @@ const CardItem = ({
     {
       borderRadius: 8,
       width: hasVariant ? fullWidth / 2 - 30 : fullWidth - 80,
-      height: hasVariant ? 170 : 350,
+      height: hasVariant ? 150 : 260,
       margin: hasVariant ? 0 : 20,
     },
   ];
@@ -60,7 +60,7 @@ const CardItem = ({
       {/* DESCRIPTION */}
       {description && (
         <Text style={styles.descriptionCardItem}>{description}</Text>
-      )}
+        )}
 
       {/* STATUS */}
       {!description && (

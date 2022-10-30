@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home, Matches, Messages, Profile } from "./screens";
-import { PRIMARY_COLOR, DARK_GRAY, BLACK, WHITE } from "./assets/styles";
+import { PRIMARY_COLOR, DARK_GREEN, BLACK, WHITE, GREEN } from "./assets/styles";
 import TabBarIcon from "./components/TabBarIcon";
 
 const Stack = createStackNavigator();
@@ -21,14 +21,14 @@ const App = () => (
             tabBarOptions={{
               showLabel: false,
               activeTintColor: PRIMARY_COLOR,
-              inactiveTintColor: DARK_GRAY,
+              inactiveTintColor: DARK_GREEN,
               labelStyle: {
                 fontSize: 14,
                 textTransform: "uppercase",
                 paddingTop: 10,
               },
               style: {
-                backgroundColor: WHITE,
+                backgroundColor: GREEN,
                 borderTopWidth: 0,
                 marginBottom: 0,
                 shadowOpacity: 0.05,

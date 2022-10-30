@@ -4,8 +4,10 @@ export const PRIMARY_COLOR = "#7444C0";
 export const SECONDARY_COLOR = "#5636B8";
 export const WHITE = "#FFFFFF";
 export const GRAY = "#757E90";
-export const DARK_GRAY = "#363636";
+export const DARK_GREEN = "#05595B";
 export const BLACK = "#000000";
+export const GREEN = "#4CAF50";
+
 
 export const ONLINE_STATUS = "#46A575";
 export const OFFLINE_STATUS = "#D04949";
@@ -84,7 +86,7 @@ export default StyleSheet.create({
     elevation: 1,
     shadowOpacity: 0.15,
     shadowRadius: 20,
-    shadowColor: DARK_GRAY,
+    shadowColor: DARK_GREEN,
     shadowOffset: { height: 10, width: 0 },
   },
   miniButton: {
@@ -98,7 +100,7 @@ export default StyleSheet.create({
     elevation: 1,
     shadowOpacity: 0.15,
     shadowRadius: 20,
-    shadowColor: DARK_GRAY,
+    shadowColor: DARK_GREEN,
     shadowOffset: { height: 10, width: 0 },
   },
 
@@ -115,7 +117,7 @@ export default StyleSheet.create({
     shadowOffset: { height: 0, width: 0 },
   },
   cityText: {
-    color: DARK_GRAY,
+    color: DARK_GREEN,
     fontSize: 13,
     textAlign: "center",
   },
@@ -133,7 +135,7 @@ export default StyleSheet.create({
     shadowOffset: { height: 0, width: 0 },
   },
   filtersText: {
-    color: DARK_GRAY,
+    color: DARK_GREEN,
     fontSize: 13,
     textAlign: "center",
   },
@@ -190,7 +192,7 @@ export default StyleSheet.create({
   name: {
     paddingTop: 25,
     paddingBottom: 5,
-    color: DARK_GRAY,
+    color: DARK_GREEN,
     fontSize: 15,
     textAlign: "center",
   },
@@ -207,7 +209,7 @@ export default StyleSheet.create({
   },
   iconProfile: {
     fontSize: 12,
-    color: DARK_GRAY,
+    color: DARK_GREEN,
     paddingHorizontal: 10,
   },
   infoContent: {
@@ -229,7 +231,7 @@ export default StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
   },
-  title: { paddingBottom: 10, fontSize: 22, color: DARK_GRAY },
+  title: { paddingBottom: 10, fontSize: 22, color: DARK_GREEN },
 
   // CONTAINER - HOME
   containerHome: {
@@ -295,6 +297,7 @@ export default StyleSheet.create({
   // MENU
   tabButtonText: {
     textTransform: "uppercase",
+    fontSize:12
   },
   iconMenu: {
     alignItems: "center",
