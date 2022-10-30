@@ -1,3 +1,3 @@
 
-## Thank You! Steven Persia
+## for open source UI design thank you! Steven Persia
 # petlang
