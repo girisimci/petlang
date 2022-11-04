@@ -8,7 +8,6 @@ export const DARK_GREEN = "#05595B";
 export const BLACK = "#000000";
 export const GREEN = "#4CAF50";
 
-
 export const ONLINE_STATUS = "#46A575";
 export const OFFLINE_STATUS = "#D04949";
 
@@ -237,7 +236,6 @@ export default StyleSheet.create({
   containerHome: {
     marginHorizontal: 10,
   },
-
   // CONTAINER - MATCHES
   containerMatches: {
     justifyContent: "space-between",
@@ -297,9 +295,16 @@ export default StyleSheet.create({
   // MENU
   tabButtonText: {
     textTransform: "uppercase",
-    fontSize:12
+    fontSize: 12,
   },
   iconMenu: {
     alignItems: "center",
+  },
+
+  //login & register
+
+  login: {
+    color: BLACK,
+    fontSize: 22,
   },
 });

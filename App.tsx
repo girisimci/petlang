@@ -3,7 +3,13 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home, Matches, Messages, Profile } from "./screens";
-import { PRIMARY_COLOR, DARK_GREEN, BLACK, WHITE, GREEN } from "./assets/styles";
+import {
+  PRIMARY_COLOR,
+  DARK_GREEN,
+  BLACK,
+  WHITE,
+  GREEN,
+} from "./assets/styles";
 import TabBarIcon from "./components/TabBarIcon";
 
 const Stack = createStackNavigator();
